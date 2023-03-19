@@ -1,0 +1,205 @@
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  align-content: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.addIcon {
+  border: 2px #888;
+  border-radius: 50%;
+  font-size: 40px;
+ 
+}
+
+.singleNoteEdit {
+  /* float: right; */
+  font-size: 20px;
+
+}
+
+.singleNoteEdit-icon {
+  color: #5b1d11;
+  font-size: large;
+}
+
+.singleNoteIcon {
+  /* margin-left: 10px; */
+  cursor: pointer;
+  color: #5b1d11;
+  font-size: large;
+}
+
+.singleNoteIcon:last-child {
+  /* margin-left: 10px; */
+  color: #5b1d11;
+  font-size: large;
+}
+
+.modall {
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 44;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-contentt {
+
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+
+  width: 50%;
+
+  padding-top: 20px;
+  margin-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  margin: 32px auto 50px auto;
+
+  border-radius: 7px;
+  box-shadow: 0 1px 7px rgb(128, 128, 128);
+}
+
+.pinned-name {
+  color: #5f6368;
+  letter-spacing: .07272727em;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: .6875rem;
+
+  line-height: 1rem;
+  text-transform: uppercase;
+
+
+  margin: 16px 20px;
+  font-weight: 700;
+}
+
+.content-infoo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.modal-titlee {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(99, 102, 105);
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+label,
+textarea {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+.formm {
+  position: relative;
+  width: inherit;
+  max-width: 300px;
+  margin: 32px auto 50px auto;
+  background: #fff;
+  padding: 7px;
+  border-radius: 7px;
+  box-shadow: 0 1px 7px rgb(128, 128, 128);
+}
+
+.formm .inputt {
+  width: 100%;
+  border: none;
+  padding: 4px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+
+.formm .textareaa {
+  width: 100%;
+  border: none;
+  padding: 4px 10px;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+
+.formm .buttonn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 18px;
+  bottom: -18px;
+  background: rgb(255, 255, 255);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgb(165, 165, 165);
+  cursor: pointer;
+  outline: none;
+}

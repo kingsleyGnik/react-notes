@@ -1,0 +1,120 @@
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-content: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.note {
+    width: 185px;
+    /* margin: 0px 25px 40px 25px; */
+    /* background: #fff; */
+    /* border-radius: 20%; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin: 32px auto 50px auto;
+    padding: 7px;
+    border-radius: 7px;
+    box-shadow: 0 1px 7px rgb(128, 128, 128);
+
+}
+
+.link {}
+
+.noteTitle>a {
+    text-decoration: none;
+    color: rgb(99, 102, 105);
+}
+
+.noteImg {
+    width: 385px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+.noteInfo {
+    /* display: flex;
+      flex-direction: column;
+      align-items: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.noteCat {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #be9656;
+    line-height: 19px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.noteTitle {
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+
+    font-weight: 80%;
+    /* 
+      font-weight: 900;
+      cursor: pointer;
+      align-items: center; */
+}
+
+.noteDate {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 15px;
+}
+
+.pinIcon {
+    outline: none !important;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    z-index: 21;
+    width: 32px;
+    height: 32px;
+    right: 3px;
+    top: 8x;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    opacity: 75%;
+    font-size: 14px;
+}
+
+.noteDesc {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5b5555;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

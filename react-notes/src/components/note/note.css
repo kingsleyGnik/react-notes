@@ -1,0 +1,242 @@
+.note {
+  width: 185px;
+  /* margin: 0px 25px 40px 25px; */
+  /* background: #fff; */
+  /* border-radius: 20%; */
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  margin: 32px auto 50px auto;
+  padding: 7px;
+  border-radius: 7px;
+  box-shadow: 0 1px 7px rgb(128, 128, 128);
+
+}
+
+.link {}
+
+.noteTitle>a {
+  text-decoration: none;
+  color: rgb(99, 102, 105);
+}
+
+.noteImg {
+  width: 385px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.noteInfo {
+  /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.noteCat {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #be9656;
+  line-height: 19px;
+  margin-top: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.noteTitle {
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+
+  font-weight: 80%;
+  /* 
+    font-weight: 900;
+    cursor: pointer;
+    align-items: center; */
+}
+
+.noteDate {
+  font-family: "Lora", serif;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 400;
+  color: #999999;
+  margin-top: 15px;
+}
+
+.pinIcon {
+  outline: none !important;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 4px;
+  top: 5px;
+  z-index: 21;
+  width: 32px;
+  height: 32px;
+  right: 3px;
+  top: 8x;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  opacity: 75%;
+  font-size: 14px;
+}
+
+.noteDesc {
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #5b5555;
+  margin-top: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+
+.colorPalate {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  position: absolute;
+  top: 90%;
+  right: -10%;
+  left: -10%;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border-radius: 7px;
+    box-shadow: 0 1px 7px rgb(128 128 128);
+}
+
+.colorPalateElement {
+  width: 13%;
+  margin-right: 5px;
+  height: 26px !important;
+  border: 0px  !important;
+}
+
+.colorPalateContainer{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+
+
+.batch
+{
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  height: 18px;
+  -webkit-justify-content: center;
+  justify-content: center;
+  min-width: 35px;
+  padding: 3px 5px;
+  letter-spacing: .01785714em;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: .875rem;
+    font-weight: 500;
+    background-color: beige;
+    width: 40px;
+    min-width: 50px;
+    border-radius: 8px;
+}
+
+.batch-lable{
+  font-size: 8px;
+    margin: 4px;
+    padding: 6px;
+    align-items: center !important;
+    text-align: center;
+    margin-right: 0px;
+    padding-right: 5px;
+    
+}
+.batch:hover .batch-remove {
+  display: block;
+  border-radius: 50%;
+  background-color: #c6bdbd;
+}
+.batch:hover .batch-lable {
+  align-items: left;
+  overflow: hidden;
+}
+
+.batch-remove {
+  
+    display: block;
+    height: 18px;
+    position: relative;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+}
+
+.tag-dropdown{
+  position: absolute;
+  top: 133px;
+  /* bottom: 0; */
+  left: 31px;
+  width: inherit;
+  max-width: 100px;
+  margin: 32px auto 50px auto;
+  background: #fff;
+  padding: 7px;
+  border-radius: 7px;
+  box-shadow: 0 1px 7px rgb(128, 128, 128);
+}
+
+.tag-input {
+  width: 80px;
+  border: none;
+  padding: 4px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
